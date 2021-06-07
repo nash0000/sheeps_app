@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:sheeps_app/messenger_screen.dart';
 import 'package:sheeps_app/screens/login/login_screen.dart';
+import 'package:sheeps_app/screens/order_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -25,7 +26,11 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: MessengerScreen(),
+      // home: Directionality(
+      //   textDirection: TextDirection.rtl,
+      //   child:
+      home: OrderScreen(),
+      // ),
     );
   }
 }
